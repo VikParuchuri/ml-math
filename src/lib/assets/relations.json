@@ -1,0 +1,632 @@
+[
+    {
+        "source": "AbsAlg",
+        "target": "AlgGeo",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "AbsAlg-->|UsefulFor|AlgGeo",
+        "id": "AbsAlg-AlgGeo"
+    },
+    {
+        "source": "AbsAlg",
+        "target": "AlgTopo",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "AbsAlg-->|NeededFor|AlgTopo",
+        "id": "AbsAlg-AlgTopo"
+    },
+    {
+        "source": "AbsAlg",
+        "target": "Cat",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "AbsAlg-->|UsefulFor|Cat",
+        "id": "AbsAlg-Cat"
+    },
+    {
+        "source": "AbsAlg",
+        "target": "GeoAlg",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "AbsAlg-->|UsefulFor|GeoAlg",
+        "id": "AbsAlg-GeoAlg"
+    },
+    {
+        "source": "AbsAlg",
+        "target": "LinAlg",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "AbsAlg-->|UsefulFor|LinAlg",
+        "id": "AbsAlg-LinAlg"
+    },
+    {
+        "source": "AbsAlg",
+        "target": "Representation",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "AbsAlg-->|NeededFor|Representation",
+        "id": "AbsAlg-Representation"
+    },
+    {
+        "source": "AbsAlg",
+        "target": "TropGeom",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "AbsAlg-->|UsefulFor|TropGeom",
+        "id": "AbsAlg-TropGeom"
+    },
+    {
+        "source": "AlgTopo",
+        "target": "Cat",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "AlgTopo-->|UsefulFor|Cat",
+        "id": "AlgTopo-Cat"
+    },
+    {
+        "source": "AnGeom",
+        "target": "DiffGeo",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "AnGeom-->|NeededFor|DiffGeo",
+        "id": "AnGeom-DiffGeo"
+    },
+    {
+        "source": "AnGeom",
+        "target": "GeoAlg",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "AnGeom-->|NeededFor|GeoAlg",
+        "id": "AnGeom-GeoAlg"
+    },
+    {
+        "source": "Chaos",
+        "target": "ComplexSys",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Chaos-->|UsefulFor|ComplexSys",
+        "id": "Chaos-ComplexSys"
+    },
+    {
+        "source": "Combin",
+        "target": "Proba",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Combin-->|NeededFor|Proba",
+        "id": "Combin-Proba"
+    },
+    {
+        "source": "Comput",
+        "target": "Complexity",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Comput-->|NeededFor|Complexity",
+        "id": "Comput-Complexity"
+    },
+    {
+        "source": "Control",
+        "target": "Signal",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Control-->|UsefulFor|Signal",
+        "id": "Control-Signal"
+    },
+    {
+        "source": "DiffEq",
+        "target": "LagMech",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "DiffEq-->|NeededFor|LagMech",
+        "id": "DiffEq-LagMech"
+    },
+    {
+        "source": "DiffEq",
+        "target": "PDE",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "DiffEq-->|NeededFor|PDE",
+        "id": "DiffEq-PDE"
+    },
+    {
+        "source": "DiffGeo",
+        "target": "InfoGeom",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "DiffGeo-->|NeededFor|InfoGeom",
+        "id": "DiffGeo-InfoGeom"
+    },
+    {
+        "source": "DynSys",
+        "target": "CellAut",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "DynSys-->|UsefulFor|CellAut",
+        "id": "DynSys-CellAut"
+    },
+    {
+        "source": "DynSys",
+        "target": "Chaos",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "DynSys-->|NeededFor|Chaos",
+        "id": "DynSys-Chaos"
+    },
+    {
+        "source": "DynSys",
+        "target": "Control",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "DynSys-->|NeededFor|Control",
+        "id": "DynSys-Control"
+    },
+    {
+        "source": "DynSys",
+        "target": "Koopman",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "DynSys-->|NeededFor|Koopman",
+        "id": "DynSys-Koopman"
+    },
+    {
+        "source": "FormalLogic",
+        "target": "Comput",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "FormalLogic-->|UsefulFor|Comput",
+        "id": "FormalLogic-Comput"
+    },
+    {
+        "source": "FunAn",
+        "target": "Koopman",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "FunAn-->|NeededFor|Koopman",
+        "id": "FunAn-Koopman"
+    },
+    {
+        "source": "FunAn",
+        "target": "LagMech",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "FunAn-->|UsefulFor|LagMech",
+        "id": "FunAn-LagMech"
+    },
+    {
+        "source": "FunAn",
+        "target": "PDE",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "FunAn-->|NeededFor|PDE",
+        "id": "FunAn-PDE"
+    },
+    {
+        "source": "GenTopo",
+        "target": "AlgTopo",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "GenTopo-->|NeededFor|AlgTopo",
+        "id": "GenTopo-AlgTopo"
+    },
+    {
+        "source": "GenTopo",
+        "target": "FunAn",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "GenTopo-->|NeededFor|FunAn",
+        "id": "GenTopo-FunAn"
+    },
+    {
+        "source": "GenTopo",
+        "target": "Measure",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "GenTopo-->|UsefulFor|Measure",
+        "id": "GenTopo-Measure"
+    },
+    {
+        "source": "Graph",
+        "target": "Network",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Graph-->|NeededFor|Network",
+        "id": "Graph-Network"
+    },
+    {
+        "source": "HamMech",
+        "target": "StatMech",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "HamMech-->|UsefulFor|StatMech",
+        "id": "HamMech-StatMech"
+    },
+    {
+        "source": "HighSchool",
+        "target": "AnGeom",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "HighSchool-->|UsefulFor|AnGeom",
+        "id": "HighSchool-AnGeom"
+    },
+    {
+        "source": "HighSchool",
+        "target": "RealAn",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "HighSchool-->|UsefulFor|RealAn",
+        "id": "HighSchool-RealAn"
+    },
+    {
+        "source": "Info",
+        "target": "Signal",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Info-->|UsefulFor|Signal",
+        "id": "Info-Signal"
+    },
+    {
+        "source": "LagMech",
+        "target": "HamMech",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "LagMech-->|NeededFor|HamMech",
+        "id": "LagMech-HamMech"
+    },
+    {
+        "source": "LinAlg",
+        "target": "DiffEq",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "LinAlg-->|NeededFor|DiffEq",
+        "id": "LinAlg-DiffEq"
+    },
+    {
+        "source": "LinAlg",
+        "target": "DiffGeo",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "LinAlg-->|NeededFor|DiffGeo",
+        "id": "LinAlg-DiffGeo"
+    },
+    {
+        "source": "LinAlg",
+        "target": "DynSys",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "LinAlg-->|NeededFor|DynSys",
+        "id": "LinAlg-DynSys"
+    },
+    {
+        "source": "LinAlg",
+        "target": "LinReg",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "LinAlg-->|NeededFor|LinReg",
+        "id": "LinAlg-LinReg"
+    },
+    {
+        "source": "LinAlg",
+        "target": "NumLinAlg",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "LinAlg-->|NeededFor|NumLinAlg",
+        "id": "LinAlg-NumLinAlg"
+    },
+    {
+        "source": "LinAlg",
+        "target": "Representation",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "LinAlg-->|NeededFor|Representation",
+        "id": "LinAlg-Representation"
+    },
+    {
+        "source": "Logic",
+        "target": "FormalLogic",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Logic-->|NeededFor|FormalLogic",
+        "id": "Logic-FormalLogic"
+    },
+    {
+        "source": "Logic",
+        "target": "RealAn",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Logic-->|UsefulFor|RealAn",
+        "id": "Logic-RealAn"
+    },
+    {
+        "source": "Measure",
+        "target": "OptimTrans",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Measure-->|NeededFor|OptimTrans",
+        "id": "Measure-OptimTrans"
+    },
+    {
+        "source": "Measure",
+        "target": "RandMat",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Measure-->|NeededFor|RandMat",
+        "id": "Measure-RandMat"
+    },
+    {
+        "source": "Measure",
+        "target": "Stoch",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Measure-->|NeededFor|Stoch",
+        "id": "Measure-Stoch"
+    },
+    {
+        "source": "Mech",
+        "target": "LagMech",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Mech-->|NeededFor|LagMech",
+        "id": "Mech-LagMech"
+    },
+    {
+        "source": "Network",
+        "target": "ComplexSys",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Network-->|UsefulFor|ComplexSys",
+        "id": "Network-ComplexSys"
+    },
+    {
+        "source": "NumAn",
+        "target": "Optim",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "NumAn-->|UsefulFor|Optim",
+        "id": "NumAn-Optim"
+    },
+    {
+        "source": "Optim",
+        "target": "Convex",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Optim-->|NeededFor|Convex",
+        "id": "Optim-Convex"
+    },
+    {
+        "source": "Proba",
+        "target": "Bayes",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Proba-->|NeededFor|Bayes",
+        "id": "Proba-Bayes"
+    },
+    {
+        "source": "Proba",
+        "target": "Info",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Proba-->|NeededFor|Info",
+        "id": "Proba-Info"
+    },
+    {
+        "source": "Proba",
+        "target": "Measure",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Proba-->|NeededFor|Measure",
+        "id": "Proba-Measure"
+    },
+    {
+        "source": "Proba",
+        "target": "Network",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Proba-->|NeededFor|Network",
+        "id": "Proba-Network"
+    },
+    {
+        "source": "Proba",
+        "target": "StatMech",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Proba-->|NeededFor|StatMech",
+        "id": "Proba-StatMech"
+    },
+    {
+        "source": "Proba",
+        "target": "Stats",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Proba-->|NeededFor|Stats",
+        "id": "Proba-Stats"
+    },
+    {
+        "source": "RealAn",
+        "target": "CompAn",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "RealAn-->|NeededFor|CompAn",
+        "id": "RealAn-CompAn"
+    },
+    {
+        "source": "RealAn",
+        "target": "DiffEq",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "RealAn-->|NeededFor|DiffEq",
+        "id": "RealAn-DiffEq"
+    },
+    {
+        "source": "RealAn",
+        "target": "DiffGeo",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "RealAn-->|NeededFor|DiffGeo",
+        "id": "RealAn-DiffGeo"
+    },
+    {
+        "source": "RealAn",
+        "target": "DynSys",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "RealAn-->|NeededFor|DynSys",
+        "id": "RealAn-DynSys"
+    },
+    {
+        "source": "RealAn",
+        "target": "Game",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "RealAn-->|UsefulFor|Game",
+        "id": "RealAn-Game"
+    },
+    {
+        "source": "RealAn",
+        "target": "GenTopo",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "RealAn-->|NeededFor|GenTopo",
+        "id": "RealAn-GenTopo"
+    },
+    {
+        "source": "RealAn",
+        "target": "NumAn",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "RealAn-->|NeededFor|NumAn",
+        "id": "RealAn-NumAn"
+    },
+    {
+        "source": "RealAn",
+        "target": "Optim",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "RealAn-->|NeededFor|Optim",
+        "id": "RealAn-Optim"
+    },
+    {
+        "source": "RealAn",
+        "target": "Proba",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "RealAn-->|NeededFor|Proba",
+        "id": "RealAn-Proba"
+    },
+    {
+        "source": "Set",
+        "target": "RealAn",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Set-->|UsefulFor|RealAn",
+        "id": "Set-RealAn"
+    },
+    {
+        "source": "Stats",
+        "target": "Bayes",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Stats-->|UsefulFor|Bayes",
+        "id": "Stats-Bayes"
+    },
+    {
+        "source": "Stats",
+        "target": "InfoGeom",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Stats-->|NeededFor|InfoGeom",
+        "id": "Stats-InfoGeom"
+    },
+    {
+        "source": "Stats",
+        "target": "LinReg",
+        "importance": "NeededFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Stats-->|NeededFor|LinReg",
+        "id": "Stats-LinReg"
+    },
+    {
+        "source": "Stats",
+        "target": "Network",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Stats-->|UsefulFor|Network",
+        "id": "Stats-Network"
+    },
+    {
+        "source": "Stats",
+        "target": "Signal",
+        "importance": "UsefulFor",
+        "name": "",
+        "tags": "",
+        "mm relation": "Stats-->|UsefulFor|Signal",
+        "id": "Stats-Signal"
+    }
+]

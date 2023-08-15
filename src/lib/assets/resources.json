@@ -1,0 +1,1172 @@
+[
+    {
+        "name": "3b1b-calc",
+        "title": "The Essence of Calculus - 3Blue1Brown",
+        "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+        "type": "Video Series",
+        "length": "3 hours",
+        "topics": "RealAn",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "3b1b-diffeq",
+        "title": "Differential Equations - 3Blue1Brown",
+        "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6",
+        "type": "Video Series",
+        "length": "2 hours",
+        "topics": "DiffEq",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "3b1b-linalg",
+        "title": "The Essence of Linear Algebra - 3Blue1Brown",
+        "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+        "type": "Video Series",
+        "length": "3 hours",
+        "topics": "LinAlg",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "3b1b-neural-networks",
+        "title": "Neural Networks - 3Blue1Brown",
+        "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+        "type": "Video Series",
+        "length": "1 hour",
+        "topics": "",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "3b1b-series",
+        "title": "3Blue1Brown\u2019s youtube series",
+        "url": "https://www.youtube.com/@3blue1brown/playlists",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "arnold-numan",
+        "title": "A Concise Introduction to Numerical Analysis - Douglas Arnold",
+        "url": "https://www-users.cse.umn.edu/~arnold/597.00-01/nabook.pdf",
+        "type": "Book",
+        "length": "211",
+        "topics": "NumAn",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "awesome-math-gh",
+        "title": "Awesome Math",
+        "url": "https://github.com/rossant/awesome-math",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "NeedsScraping",
+        "category": "Learning"
+    },
+    {
+        "name": "awesome-theoretical-computer-science-gh",
+        "title": "Awesome Theoretical Computer Science",
+        "url": "https://github.com/mostafatouny/awesome-theoretical-computer-science",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "NeedsScraping",
+        "category": "Learning"
+    },
+    {
+        "name": "bayes-for-hackers",
+        "title": "Bayesian Methods for Hackers",
+        "url": "https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
+        "type": "Book",
+        "length": "",
+        "topics": "Bayes",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "bellman-kalaba-control",
+        "title": "Dynamic Programming and Modern Control Theory",
+        "url": "https://www.amazon.com/Dynamic-Programming-Modern-Control-Theory/dp/0120848562/?pldnSite=1",
+        "type": "Book",
+        "length": "112 pages",
+        "topics": "Control",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "cats-for-ai-youtube",
+        "title": "Categories for AI",
+        "url": "https://www.youtube.com/playlist?list=PLSdFiFTAI4sQ0Rg4BIZcNnU-45I9DI-VB",
+        "type": "Video Series",
+        "length": "13 hours",
+        "topics": "Cat",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "borcherds-group",
+        "title": "Group Theory Lectures",
+        "url": "https://youtube.com/playlist?list=PL8yHsr3EFj51pjBvvCPipgAT3SYpIiIsJ",
+        "type": "Video Series",
+        "length": "12 hours",
+        "topics": "AbsAlg",
+        "tags": "Advanced",
+        "category": "Learning"
+    },
+    {
+        "name": "bright-side-of-maths",
+        "title": "The Bright Side of Mathematics - Youtube",
+        "url": "https://www.youtube.com/@brightsideofmaths",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "brilliant",
+        "title": "Brilliant",
+        "url": "https://brilliant.org/courses/",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "brunton-control",
+        "title": "Control Bootcamp - Steve Brunton",
+        "url": "https://www.youtube.com/playlist?list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m",
+        "type": "Video Series",
+        "length": "8.5 hours",
+        "topics": "Control",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "brunton-koopman",
+        "title": "Koopman Analysis - Steve Brunton",
+        "url": "https://www.youtube.com/playlist?list=PLMrJAkhIeNNSVXUvppZTYNHKQUD-oWys9",
+        "type": "Video Series",
+        "length": "4 hours",
+        "topics": "Koopman",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "brunton-youtube",
+        "title": "Steve Brunton - Youtube",
+        "url": "https://www.youtube.com/@Eigensteve/featured",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "bsm-comp-an",
+        "title": "Complex Analysis - The Bright Side of Mathematics",
+        "url": "https://www.youtube.com/playlist?list=PLBh2i93oe2qtIc75sLYaVEBt0QNqVbdmZ",
+        "type": "Video Series",
+        "length": "6.5 hours",
+        "topics": "CompAn",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "bsm-distribution",
+        "title": "Distribution Theory - The Brigh Side of Mathematics",
+        "url": "https://www.youtube.com/playlist?list=PLBh2i93oe2qsbptdcvFlowCl51EX_a3nB",
+        "type": "Video Series",
+        "length": "1.5 hours",
+        "topics": "FunAn",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "bsm-fun-an",
+        "title": "Functional Analysis - The Bright Side of Mathematics",
+        "url": "https://www.youtube.com/playlist?list=PLBh2i93oe2qsGKDOsuVVw-OCAfprrnGfr",
+        "type": "Video Series",
+        "length": "5 hours",
+        "topics": "FunAn",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "bsm-linalg",
+        "title": "Linear Algebra - The Bright Side of Mathematics",
+        "url": "https://www.youtube.com/playlist?list=PLBh2i93oe2quLc5zaxD0WHzQTGrXMwAI6",
+        "type": "Video Series",
+        "length": "4 hours",
+        "topics": "LinAlg",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "bsm-manifolds",
+        "title": "Manifolds - The Bright Side of Mathematics",
+        "url": "https://www.youtube.com/playlist?list=PLBh2i93oe2qvRGAtgkTszX7szZDVd6jh1",
+        "type": "Video Series",
+        "length": "3 hours",
+        "topics": "DiffGeo",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "bsm-measure",
+        "title": "Measure Theory - The Bright Side of Mathematics",
+        "url": "https://www.youtube.com/playlist?list=PLBh2i93oe2qvMVqAzsX1Kuv6-4fjazZ8j",
+        "type": "Video Series",
+        "length": "5 hours",
+        "topics": "Measure",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "bsm-multivar-calc",
+        "title": "Multivariable Calculus - The Bright Side of Mathematics",
+        "url": "https://www.youtube.com/playlist?list=PLBh2i93oe2qv4G2AyarkbR3OKBml0hXEg",
+        "type": "Video Series",
+        "length": "2.5 hours",
+        "topics": "RealAn",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "bsm-proba",
+        "title": "Probability - The Bright Side of Mathematics",
+        "url": "https://www.youtube.com/playlist?list=PLBh2i93oe2qswFOC98oSFc37-0f4S3D4z",
+        "type": "Video Series",
+        "length": "3 hours",
+        "topics": "Proba",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "bsm-real-an",
+        "title": "Real Analysis - The Bright Side of Mathematics",
+        "url": "https://www.youtube.com/playlist?list=PLBh2i93oe2quABbNq4I_-hyjhW8eOdgrO",
+        "type": "Video Series",
+        "length": "10 hours",
+        "topics": "RealAn",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "bsm-start-math",
+        "title": "Start Learning Mathematics - The Bright Side of Mathematics",
+        "url": "https://www.youtube.com/playlist?list=PLBh2i93oe2qtbygdXz4u6Mkh7c_hMLBA8",
+        "type": "Video Series",
+        "length": "4 hours",
+        "topics": "Logic",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "cadek-algtopo",
+        "title": "Algebraic Topology",
+        "url": "https://www.math.muni.cz/~cadek/at/at.pdf",
+        "type": "Book",
+        "length": "83",
+        "topics": "AlgTopo",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "chaos-hypertextbook",
+        "title": "The Chaos Hypertextbook",
+        "url": "https://hypertextbook.com/chaos/",
+        "type": "",
+        "length": "",
+        "topics": "DynSys",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "colah-blog",
+        "title": "Chris Olah\u2019s Blog",
+        "url": "https://colah.github.io/",
+        "type": "Blog",
+        "length": "",
+        "topics": "",
+        "tags": "NeedsScraping",
+        "category": "Learning"
+    },
+    {
+        "name": "colah-information",
+        "title": "Visual Information Theory - Chris Olah",
+        "url": "https://colah.github.io/posts/2015-09-Visual-Information/",
+        "type": "Blog Post",
+        "length": "7700 words",
+        "topics": "Info",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "colah-topology",
+        "title": "Neural Networks, Manifolds, and Topology - Chris Olah",
+        "url": "https://colah.github.io/posts/2014-03-NN-Manifolds-Topology/",
+        "type": "Blog Post",
+        "length": "",
+        "topics": "GenTopo",
+        "tags": "NeedsLength",
+        "category": "Application"
+    },
+    {
+        "name": "deep-learning-book",
+        "title": "Deep Learning",
+        "url": "https://www.deeplearningbook.org/",
+        "type": "Book",
+        "length": "",
+        "topics": "LinAlg",
+        "tags": "NeedsLength",
+        "category": "Application"
+    },
+    {
+        "name": "comp-optim-trans-book",
+        "title": "Computational Optimal Transport",
+        "url": "https://optimaltransport.github.io/",
+        "type": "",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "jay-alammar",
+        "title": "Jay Alammar\u2019s blog",
+        "url": "https://jalammar.github.io/",
+        "type": "Blog",
+        "length": "",
+        "topics": "",
+        "tags": "NeedsScraping",
+        "category": "Application"
+    },
+    {
+        "name": "coursera",
+        "title": "Coursera",
+        "url": "https://www.coursera.org/courses?query=mathematics&languages=en",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "diestel-graph",
+        "title": "Graph Theory - Reinhard Diestel",
+        "url": "http://www.cs.unibo.it/babaoglu/courses/cas00-01/tutorials/GraphTheory.pdf",
+        "type": "Book",
+        "length": "322 pages",
+        "topics": "Graph",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "hatcher-algtopo",
+        "title": "Algebraic Topology",
+        "url": "https://pi.math.cornell.edu/~hatcher/AT/AT.pdf",
+        "type": "Book",
+        "length": "560 pages",
+        "topics": "AlgTopo",
+        "tags": "Advanced, Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "jaynes-book",
+        "title": "Probability Theory: The Logic of Science",
+        "url": "https://www.amazon.com/Probability-Theory-Science-T-Jaynes-ebook/dp/B00AKE1Q40/?pldnSite=1",
+        "type": "Book",
+        "length": "",
+        "topics": "Proba",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "kc-ddg-youtube",
+        "title": "Discrete Differential Geometry - Keenan Crane",
+        "url": "https://www.youtube.com/watch?v=mas-PUA3OvA&list=PL9_jI1bdZmz0hIrNCMQW1YmZysAiIYSSS",
+        "type": "Video Series",
+        "length": "24 hours",
+        "topics": "DiffGeo",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "khan-academy",
+        "title": "Khan Academy",
+        "url": "https://www.khanacademy.org/math",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "kidger-just-know-stuff",
+        "title": "Just Know Stuff - Patrick Kidger",
+        "url": "https://kidger.site/thoughts/just-know-stuff/",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "kuronya-topology",
+        "title": "Introduction to Topology",
+        "url": "https://math.bme.hu/~kalex/Teaching/Spring10/Topology/TopNotes_Spring10.pdf",
+        "type": "Book",
+        "length": "102 pages",
+        "topics": "GenTopo",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "lebl-diffeq",
+        "title": "Notes on Diffy Qs: Differential Equations for Engineers",
+        "url": "https://www.jirka.org/diffyqs/",
+        "type": "Book",
+        "length": "466 pages",
+        "topics": "DiffEq",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "levy-numan",
+        "title": "Introduction to Numerical Analysis - Doron Levy",
+        "url": "https://www.math.umd.edu/~dlevy/resources/notes.pdf",
+        "type": "Book",
+        "length": "130 pages",
+        "topics": "NumAn",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "mackay-info",
+        "title": "Information Theory, Inference and Learning Algorithms - David MacKay",
+        "url": "http://www.inference.org.uk/mackay/itila/book.html",
+        "type": "Book",
+        "length": "640 pages",
+        "topics": "Info",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "maclagan-sturmfels-tropical",
+        "title": "Introduction to Tropical Geometry",
+        "url": "http://www.cs.technion.ac.il/~janos/COURSES/238900-13/Tropical/MaclaganSturmfels.pdf",
+        "type": "Book",
+        "length": "202 pages",
+        "topics": "TropGeom",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "math-for-ml-book",
+        "title": "Mathematics for Machine Learning",
+        "url": "https://mml-book.github.io/",
+        "type": "Book",
+        "length": "412 pages",
+        "topics": "LinAlg",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "math3ma-blog",
+        "title": "Math3ma",
+        "url": "https://www.math3ma.com/",
+        "type": "Blog",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "math4ml-map",
+        "title": "Math for Machine Learning Map",
+        "url": "https://maps.joindeltaacademy.com/?concept=94",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "gdl-website",
+        "title": "Geometric Deep Learning - Grids, Groups, Graphs, Geodesics and Gauges",
+        "url": "https://geometricdeeplearning.com/",
+        "type": "Meta",
+        "length": "",
+        "topics": "Graph",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "distill-nca",
+        "title": "Growing Neural Cellular Automata",
+        "url": "https://distill.pub/2020/growing-ca/",
+        "type": "Paper",
+        "length": "",
+        "topics": "CellAut",
+        "tags": "NeedsLength",
+        "category": "Application"
+    },
+    {
+        "name": "michor-diffgeo",
+        "title": "Topics in Differential Geometry",
+        "url": "https://www.mat.univie.ac.at/~michor/dgbook.pdf",
+        "type": "Book",
+        "length": "508 pages",
+        "topics": "DiffGeo",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "milewski-category-theory-youtube",
+        "title": "Category Theory - Bartosz Milewski",
+        "url": "https://www.youtube.com/playlist?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_",
+        "type": "Video Series",
+        "length": "15 hours",
+        "topics": "Cat",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "mit-information-entropy",
+        "title": "Information and Entropy - MIT",
+        "url": "https://mitocw.ups.edu.ec/courses/electrical-engineering-and-computer-science/6-050j-information-and-entropy-spring-2008/index.htm",
+        "type": "Course",
+        "length": "",
+        "topics": "Info",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "mit-ocw-diffeq",
+        "title": "Differential Equations - MIT OCW",
+        "url": "https://ocw.mit.edu/courses/18-03-differential-equations-spring-2010/",
+        "type": "Course",
+        "length": "",
+        "topics": "DiffEq",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "mit-ocw-linalg",
+        "title": "Linear Algebra - MIT OCW",
+        "url": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/",
+        "type": "Course",
+        "length": "",
+        "topics": "LinAlg",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "mit-ocw-underactuated-robotics",
+        "title": "Underactuated Robotics - MIT OCW",
+        "url": "https://ocw.mit.edu/courses/6-832-underactuated-robotics-spring-2009/",
+        "type": "Course",
+        "length": "",
+        "topics": "Control",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "mit-ocw-youtube",
+        "title": "MIT OpenCourseWare",
+        "url": "https://www.youtube.com/@mitocw",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "NeedsScraping",
+        "category": "Learning"
+    },
+    {
+        "name": "moller-topology",
+        "title": "General Topology",
+        "url": "https://web.math.ku.dk/~moller/e03/3gt/notes/gtnotes.pdf",
+        "type": "Book",
+        "length": "77 pages",
+        "topics": "GenTopo",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "onlinestatbook",
+        "title": "Introduction to Statistics",
+        "url": "https://onlinestatbook.com/Online_Statistics_Education.pdf",
+        "type": "Book",
+        "length": "692 pages",
+        "topics": "Stats",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "proba-cheatsheet",
+        "title": "The Only Probability Cheatsheet You'll Ever Need",
+        "url": "http://www.wzchen.com/probability-cheatsheet/",
+        "type": "Cheat Sheet",
+        "length": "",
+        "topics": "Proba",
+        "tags": "NeedsLength",
+        "category": "Learning"
+    },
+    {
+        "name": "renzo-topology",
+        "title": "Introduction to Topology",
+        "url": "https://www.math.colostate.edu/~renzo/teaching/Topology10/Notes.pdf",
+        "type": "Book",
+        "length": "118 pages",
+        "topics": "GenTopo",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "ridgway-scott-numan",
+        "title": "Numerical Analysis - L. Ridgway Scott",
+        "url": "http://people.cs.uchicago.edu/~ridg/newna/nalrs.pdf",
+        "type": "Book",
+        "length": "341 pages",
+        "topics": "NumAn",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "rme-stat-rethink-youtube",
+        "title": "Statistical Rethinking - Richard McElreath",
+        "url": "https://www.youtube.com/playlist?list=PLDcUM9US4XdMROZ57-OIRtIK0aOynbgZN",
+        "type": "Video Series",
+        "length": "25 hours",
+        "topics": "Bayes",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "robbin-salamon-diffgeo",
+        "title": "Introduction to Differential Geometry",
+        "url": "https://people.math.ethz.ch/~salamon/PREPRINTS/diffgeo.pdf",
+        "type": "Book",
+        "length": "439 pages",
+        "topics": "DiffGeo",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "rossmann-diffgeo",
+        "title": "Lectures on Differential Geometry",
+        "url": "https://mysite.science.uottawa.ca/rossmann/Differential%20Geometry%20book_files/Diffgeo.pdf",
+        "type": "Book",
+        "length": "221 pages",
+        "topics": "DiffGeo",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "ruder-gradient-descent",
+        "title": "An overview of gradient descent optimization algorithms",
+        "url": "https://ruder.io/optimizing-gradient-descent/",
+        "type": "Blog Post",
+        "length": "5600 words",
+        "topics": "Optim",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "stanford-convex-optim",
+        "title": "Convex Optimization I - Stanford",
+        "url": "https://see.stanford.edu/Course/EE364A",
+        "type": "Course",
+        "length": "",
+        "topics": "",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "stanford-linear-dyn-sys",
+        "title": "Introduction to Linear Dynamical Systems",
+        "url": "https://see.stanford.edu/Course/EE263",
+        "type": "Course",
+        "length": "",
+        "topics": "DynSys",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "stanford-online-youtube",
+        "title": "Stanford Online",
+        "url": "https://www.youtube.com/@stanfordonline",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "NeedsScraping",
+        "category": "Learning"
+    },
+    {
+        "name": "strang-linalg",
+        "title": "Introduction to Linear Algebra - Gilbert Strang",
+        "url": "https://math.mit.edu/~gs/linearalgebra/l",
+        "type": "Book",
+        "length": "",
+        "topics": "LinAlg",
+        "tags": "NeedsLength",
+        "category": "Learning"
+    },
+    {
+        "name": "strogatz-dynamics-chaos",
+        "title": "Nonlinear Dynamics and Chaos - Steven Strogatz - Youtube",
+        "url": "https://www.youtube.com/playlist?list=PLbN57C5Zdl6j_qJA-pARJnKsmROzPnO9V",
+        "type": "Video Series",
+        "length": "28 hours",
+        "topics": "DynSys",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "tao-measure",
+        "title": "An Introduction to Measure Theory - Terrence Tao",
+        "url": "https://terrytao.files.wordpress.com/2012/12/gsm-126-tao5-measure-book.pdf",
+        "type": "Book",
+        "length": "265 pages",
+        "topics": "Measure",
+        "tags": "Advanced, Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "teatime-numan",
+        "title": "Tea Time Numerical Analysis",
+        "url": "https://lqbrin.github.io/tea-time-numerical/",
+        "type": "Book",
+        "length": "375 pages",
+        "topics": "NumAn",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "think-bayes",
+        "title": "Think Bayes",
+        "url": "https://greenteapress.com/wp/think-bayes/",
+        "type": "Book",
+        "length": "",
+        "topics": "Bayes",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "think-complexity",
+        "title": "Think Complexity",
+        "url": "https://greenteapress.com/wp/think-complexity-2e/",
+        "type": "Book",
+        "length": "228 pages",
+        "topics": "ComplexSys",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "transformer-arithmetic",
+        "title": "Transformer Inference Arithmetic",
+        "url": "https://kipp.ly/blog/transformer-inference-arithmetic/",
+        "type": "Blog Post",
+        "length": "",
+        "topics": "",
+        "tags": "NeedsLength",
+        "category": "Application"
+    },
+    {
+        "name": "think-stats",
+        "title": "Think Stats",
+        "url": "https://greenteapress.com/thinkstats/",
+        "type": "Book",
+        "length": "140 pages",
+        "topics": "Stats",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "trefethen-bau-numlinalg",
+        "title": "Numerical Linear Algebra - L.N. Trefethen, D. Bau",
+        "url": "https://www.amazon.com/Numerical-Linear-Algebra-Lloyd-Trefethen/dp/0898713617",
+        "type": "Book",
+        "length": "359 pages",
+        "topics": "NumLinAlg",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "turntrout-reviews",
+        "title": "Becoming Stronger - TurnTrout",
+        "url": "https://www.lesswrong.com/s/KGYLvTqFiFE2CpHfJ",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "NeedsScraping",
+        "category": "Learning"
+    },
+    {
+        "name": "upenn-graph",
+        "title": "Graph Theory: Penn State Math 485 Lecture\nNotes",
+        "url": "http://www.personal.psu.edu/cxg286/Math485.pdf",
+        "type": "Book",
+        "length": "182 pages",
+        "topics": "Graph",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "uwaterloo-numan",
+        "title": "Numerical Methods - UWaterloo",
+        "url": "https://ece.uwaterloo.ca/~dwharder/nm/",
+        "type": "Course",
+        "length": "",
+        "topics": "NumAn",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "wb-frechet-derivative-youtube",
+        "title": "Look Mom, No Indices! Vector Calculus with the Fr\u00e9chet Derivative by Charles Frye",
+        "url": "https://www.youtube.com/watch?v=QvJ544dBvRg",
+        "type": "Video",
+        "length": "35 minutes",
+        "topics": "RealAn",
+        "tags": "Recommended",
+        "category": "Learning"
+    },
+    {
+        "name": "wb-math4ml-youtube",
+        "title": "Math for Machine Learning - Weights and Biases",
+        "url": "https://www.youtube.com/watch?v=uZeDTwWcnuY&list=PLD80i8An1OEGZ2tYimemzwC3xqkU0jKUg",
+        "type": "Video Series",
+        "length": "5 hours",
+        "topics": "LinAlg",
+        "tags": "NeedsLength",
+        "category": "Learning"
+    },
+    {
+        "name": "wentworth-study-guide",
+        "title": "Study Guide - John Wentworth",
+        "url": "https://www.lesswrong.com/posts/bjjbp5i5G8bekJuxv/study-guide",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "random-walks",
+        "title": "Random Walks",
+        "url": "https://random-walks.org/content/home.htmll",
+        "type": "Meta",
+        "length": "",
+        "topics": "Proba",
+        "tags": "",
+        "category": "Learning"
+    },
+    {
+        "name": "distill",
+        "title": "Distill",
+        "url": "https://distill.pub/",
+        "type": "Meta",
+        "length": "",
+        "topics": "",
+        "tags": "NeedsScraping",
+        "category": "Application"
+    },
+    {
+        "name": "gnn-review",
+        "title": "Graph Neural Networks: A Review of Methods and Applications",
+        "url": "https://arxiv.org/abs/1812.08434",
+        "type": "Paper",
+        "length": "26 pages",
+        "topics": "Graph",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "koopman-ml-intro",
+        "title": "Intro to Deep Learning Koopman Operators",
+        "url": "https://nicholasgeneva.com/deep-learning/koopman/dynamics/2020/05/30/intro-to-koopman.html",
+        "type": "Blog Post",
+        "length": "",
+        "topics": "DynSys",
+        "tags": "NeedsLength",
+        "category": "Application"
+    },
+    {
+        "name": "cattheory-ml-gh",
+        "title": "Category Theory \u2229 Machine Learning",
+        "url": "https://github.com/bgavran/Category_Theory_Machine_Learning",
+        "type": "Meta",
+        "length": "",
+        "topics": "Cat",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "bishop-prml",
+        "title": "Pattern Recognition and Machine Learning",
+        "url": "https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf",
+        "type": "Book",
+        "length": "758 pages",
+        "topics": "Proba",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "mc-dropout",
+        "title": "Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning",
+        "url": "https://arxiv.org/abs/1506.02142",
+        "type": "Paper",
+        "length": "12 pages",
+        "topics": "Bayes",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "bodnar-simplical",
+        "title": "Weisfeiler and Lehman Go Topological: Message Passing Simplicial Networks",
+        "url": "https://arxiv.org/abs/2103.03212",
+        "type": "Paper",
+        "length": "27 pages",
+        "topics": "AlgTopo",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "distill-gnn",
+        "title": "A Gentle Introduction to Graph Neural Networks",
+        "url": "https://distill.pub/2021/gnn-intro/",
+        "type": "Paper",
+        "length": "26 pages",
+        "topics": "Graph",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "group-equivariant-cnn",
+        "title": "Group Equivariant Convolutional Networks",
+        "url": "https://arxiv.org/abs/1602.07576",
+        "type": "Paper",
+        "length": "12 pages",
+        "topics": "AbsAlg",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "neural-ode",
+        "title": "Neural Ordinary Differential Equations",
+        "url": "https://arxiv.org/abs/1806.07366",
+        "type": "Paper",
+        "length": "18 pages",
+        "topics": "DiffEq",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "fourier-neural-pde",
+        "title": "Fourier Neural Operator for Parametric Partial Differential Equations",
+        "url": "https://arxiv.org/abs/2010.08895",
+        "type": "Paper",
+        "length": "16 pages",
+        "topics": "PDE",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "graph-neural-diffusion",
+        "title": "GRAND: Graph Neural Diffusion",
+        "url": "https://arxiv.org/abs/2106.10934",
+        "type": "Paper",
+        "length": "15 pages",
+        "topics": "PDE",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "loss-landscape",
+        "title": "Loss Landscape",
+        "url": "http://losslandscape.com/",
+        "type": "Meta",
+        "length": "",
+        "topics": "Optim",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "pinn",
+        "title": "Physics Informed Neural Networks",
+        "url": "https://maziarraissi.github.io/PINNs/",
+        "type": "Meta",
+        "length": "14 pages",
+        "topics": "PDE",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "wgan",
+        "title": "Wasserstein GAN",
+        "url": "https://arxiv.org/abs/1701.07875",
+        "type": "Paper",
+        "length": "32 pages",
+        "topics": "Info",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "",
+        "title": "",
+        "url": "",
+        "type": "",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "lecun-dl",
+        "title": "NYU Deep Learning",
+        "url": "https://www.youtube.com/playlist?list=PLLHTzKZzVU9e6xUfG10TkTWApKSZCzuBI",
+        "type": "Video Series",
+        "length": "33 videos",
+        "topics": "",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "graph-curvature",
+        "title": "Understanding over-squashing and bottlenecks on graphs via curvature",
+        "url": "https://arxiv.org/abs/2111.14522",
+        "type": "Paper",
+        "length": "30 pages",
+        "topics": "Graph",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "",
+        "title": "",
+        "url": "",
+        "type": "",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "",
+        "title": "",
+        "url": "",
+        "type": "",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "",
+        "title": "",
+        "url": "",
+        "type": "",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "",
+        "title": "",
+        "url": "",
+        "type": "",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "",
+        "title": "",
+        "url": "",
+        "type": "",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "pdlt",
+        "title": "The Principles of Deep Learning Theory",
+        "url": "https://deeplearningtheory.com/",
+        "type": "Book",
+        "length": "471 pages",
+        "topics": "Proba",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "",
+        "title": "",
+        "url": "",
+        "type": "",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "",
+        "title": "",
+        "url": "",
+        "type": "",
+        "length": "",
+        "topics": "",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "optimizer-benchmark",
+        "title": "Descending through a Crowded Valley - Benchmarking Deep Learning Optimizers",
+        "url": "https://arxiv.org/abs/2007.01547",
+        "type": "Paper",
+        "length": "37 pages",
+        "topics": "Optim",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "vae",
+        "title": "Auto-Encoding Variational Bayes",
+        "url": "https://arxiv.org/abs/1312.6114v10",
+        "type": "Paper",
+        "length": "14 pages",
+        "topics": "Proba",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "alpha-tensor",
+        "title": "Discovering faster matrix multiplication algorithms with reinforcement learning",
+        "url": "https://www.nature.com/articles/s41586-022-05172-4",
+        "type": "Paper",
+        "length": "17 pages",
+        "topics": "NumLinAlg",
+        "tags": "",
+        "category": "Application"
+    },
+    {
+        "name": "gcn",
+        "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+        "url": "https://arxiv.org/abs/1609.02907",
+        "type": "Paper",
+        "length": "14 pages",
+        "topics": "Graph",
+        "tags": "",
+        "category": "Application"
+    }
+]
