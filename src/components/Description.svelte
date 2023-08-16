@@ -48,9 +48,6 @@
 	</div>
     <h3>Description</h3>
     <p>{topicInfo.description}</p>
-{:else}
-    <p>The graph visualization shows the math skills you need to do machine learning work.</p>
-	<p>Click on a topic to learn more about it.</p>
 {/if}
 
 {#if relevantResources.length > 0}
@@ -62,7 +59,7 @@
     </ul>
 {/if}
 
-{#if Object.keys(topicInfo).length > 0}
+{#if Object.keys(topicInfo).length > 0 && topicInfo.keywords}
 	<h3>Keywords</h3>
 	<p>{topicInfo.keywords}</p>
 {/if}

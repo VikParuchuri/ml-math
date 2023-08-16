@@ -41,12 +41,14 @@ export default [
           'height': 110,
           'text-max-width': 140,
           'font-size': '18',
+          'border-color': '#64748b', //slate-500
+          color: 'white',
         }
     },
     {
       selector: 'node:selected',
       style: {
-        'background-color': '#818cf8', //indigo-400
+        'background-color': '#4f46e5', //indigo-600
         color: 'white',
         'border-color': '#475569', //slate-600
         'line-color': '#475569', //slate-600

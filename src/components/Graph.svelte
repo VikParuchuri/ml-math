@@ -1,5 +1,5 @@
 <script>
-	import { onMount, setContext } from 'svelte'
+	import { onMount, createEventDispatcher } from 'svelte'
 	import cytoscape from 'cytoscape'
 	import GraphStyles from '$components/GraphStyles.js'
 	import { currentTopic } from '$stores/current_topic.ts'
@@ -7,6 +7,7 @@
 	export let topics
 	export let relations
 
+	const dispatch = createEventDispatcher();
 	let cyInstance = null
 	let innerHeight = 0
 	let innerWidth = 0
@@ -64,11 +65,13 @@
 			elements: elements,
 			minZoom: 0.3,
 			maxZoom: 1,
-			boxSelectionEnabled: false
+			boxSelectionEnabled: false,
+			autoungrabify: true,
 		})
 
 		cyInstance.on('tap', 'node', function (evt) {
 			$currentTopic = this.id()
+			dispatch('selectedNode')
 			handleNodeSelection(evt.target)
 		})
 

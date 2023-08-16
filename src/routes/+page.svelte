@@ -5,15 +5,39 @@
 
 	import topics from '$lib/assets/topics.json'
 	import relations from '$lib/assets/relations.json'
+
+    let descriptionPanel;
+
+    function toggleDescription() {
+        if (descriptionPanel.style.transform === 'translateY(0%)') {
+            descriptionPanel.style.transform = 'translateY(100%)';
+        } else {
+            descriptionPanel.style.transform = 'translateY(0%)';
+        }
+    }
+
+    function openDescription() {
+        descriptionPanel.style.transform = 'translateY(0%)';
+    }
 </script>
 
-<div class="grid grid-cols-1 lg:grid-cols-5 overflow-y-auto overflow-x-hidden lg:overflow-hidden pe-2 lg:pe-0" >
+<div class="relative grid grid-cols-1 lg:grid-cols-5 overflow-y-auto overflow-x-hidden lg:overflow-hidden" >
     <div class="prose prose-slate overflow-hidden lg:overflow-y-auto p-2 lg:p-6 max-h-screen">
         <Header/>
-        <Description/>
+        <div class="absolute top-0 left-0 w-full h-full bg-white transform translate-y-full transition-transform ease-in-out duration-300 overflow-hidden p-2 z-10 lg:hidden" bind:this={descriptionPanel}>
+            <button class="mb-2" on:click={() => toggleDescription()}>Close</button>
+            <div class="prose prose-slate">
+                <Description/>
+            </div>
+        </div>
+
+        <!-- Description for Larger Screens -->
+        <div class="hidden lg:block overflow-hidden h-full">
+            <Description/>
+        </div>
     </div>
     <div class="lg:col-span-4 overflow-hidden">
-        <Graph {topics} {relations}/>
+        <Graph {topics} {relations} on:selectedNode={openDescription}/>
     </div>
 </div>
 
