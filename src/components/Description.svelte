@@ -1,57 +1,56 @@
 <script>
-	import { onDestroy } from 'svelte';
+	import { onDestroy } from 'svelte'
 
-	import topics from '$lib/assets/topics.json';
-	import resources from '$lib/assets/resources.json';
-	import { currentTopic } from '$stores/current_topic.ts';
+	import topics from '$lib/assets/topics.json'
+	import resources from '$lib/assets/resources.json'
+	import { currentTopic } from '$stores/current_topic.ts'
+	import TopicBadge from '$components/TopicBadge.svelte'
 
-    let topicName = ''
-	let description = ''
+	let topicInfo = {}
 	let relevantResources = []
 
 	const renderMarkdown = () => {
-		description = ''
+		topicInfo = {}
 		relevantResources = []
 
 		if ($currentTopic === '') {
-			return;
+			return
 		}
 
 		for (let topic of topics) {
 			if (topic.id === $currentTopic) {
-                if (topic.description) {
-				    description = topic.description
-                } else {
-                    description = 'No description available.'
+				topicInfo = structuredClone(topic)
+                if (!topic.description) {
+                    topicInfo.description = 'No description available.'
                 }
-                topicName = topic.label
                 break
 			}
 		}
 
 		for (let resource of resources) {
 			if (resource.topics === $currentTopic) {
-				relevantResources.push(resource);
+				relevantResources.push(resource)
 			}
 		}
-	};
+	}
 
 	const unsubscribe = currentTopic.subscribe((value) => {
-		renderMarkdown();
-	});
+		renderMarkdown()
+	})
 
-	onDestroy(unsubscribe);
+	onDestroy(unsubscribe)
 </script>
 
-{#if topicName}
-    <h2>{topicName}</h2>
-{/if}
-
-{#if description}
+{#if Object.keys(topicInfo).length > 0}
+    <h2>{topicInfo.label}</h2>
+	<div class="not-prose">
+		<TopicBadge type={topicInfo.type}>{topicInfo.type}</TopicBadge>
+	</div>
     <h3>Description</h3>
-    <p>{description}</p>
+    <p>{topicInfo.description}</p>
 {:else}
-    <p>Welcome to the Math for ML skill tree.  Please click on a node to see a description.</p>
+    <p>The graph visualization shows the math skills you need to do machine learning work.</p>
+	<p>Click on a topic to learn more about it.</p>
 {/if}
 
 {#if relevantResources.length > 0}
@@ -61,5 +60,10 @@
         <li><a href={resource.url} target="_blank">{resource.title}</a></li>
     {/each}
     </ul>
+{/if}
+
+{#if Object.keys(topicInfo).length > 0}
+	<h3>Keywords</h3>
+	<p>{topicInfo.keywords}</p>
 {/if}
 
