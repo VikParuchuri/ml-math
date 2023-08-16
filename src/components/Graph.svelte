@@ -1,5 +1,5 @@
 <script>
-	import { onMount, createEventDispatcher } from 'svelte'
+	import { onMount, onDestroy, createEventDispatcher } from 'svelte'
 	import cytoscape from 'cytoscape'
 	import GraphStyles from '$components/GraphStyles.js'
 	import { currentTopic } from '$stores/current_topic.ts'
@@ -7,12 +7,14 @@
 	export let topics
 	export let relations
 
+	let unsubscribe
 	const dispatch = createEventDispatcher();
 	let cyInstance = null
 	let innerHeight = 0
 	let innerWidth = 0
 	const lgBreakpoint = 1024
 	let graphVisibility = 'hidden'
+	let currentTopicGraph = null
 
 	let graphElement = null
 
@@ -33,10 +35,6 @@
 	const handleNodeSelection = (node) => {
 		cyInstance.edges('.highlighted').removeClass('highlighted')
 		node.connectedEdges().addClass('highlighted')
-
-		setTimeout(() => {
-			cyInstance.resize()
-		}, 100)
 	}
 
 	onMount(() => {
@@ -70,6 +68,7 @@
 		})
 
 		cyInstance.on('tap', 'node', function (evt) {
+			currentTopicGraph = this.id()
 			$currentTopic = this.id()
 			dispatch('selectedNode')
 			handleNodeSelection(evt.target)
@@ -96,6 +95,31 @@
 			resizeInstance()
 			graphVisibility = 'visible'
 		}, 100)
+	})
+
+	onMount(() => {
+		unsubscribe = currentTopic.subscribe((value) => {
+		if (value !== currentTopicGraph && value) {
+				currentTopicGraph = value
+				let node = cyInstance.getElementById(value)
+				
+				// Unselect all nodes, and select current node
+				cyInstance.nodes().unselect()
+				node.select()
+				
+				// Center current node
+				cyInstance.center(node)
+
+				// Select edges for node
+				handleNodeSelection(node)
+			}
+		})
+	})
+
+	onDestroy(() => {
+		if (unsubscribe) {
+			unsubscribe()
+		}
 	})
 </script>
 

@@ -1,5 +1,5 @@
 <script>
-	import { onDestroy } from 'svelte'
+	import { onMount, onDestroy } from 'svelte'
 
 	import topics from '$lib/assets/topics.json'
 	import resources from '$lib/assets/resources.json'
@@ -8,6 +8,8 @@
 
 	let topicInfo = {}
 	let relevantResources = []
+	let descriptionRef
+	let unsubscribe
 
 	const renderMarkdown = () => {
 		topicInfo = {}
@@ -32,35 +34,50 @@
 				relevantResources.push(resource)
 			}
 		}
+
+		window.scrollTo(0, 0)
+		if (descriptionRef) {
+			descriptionRef.scrollTo(0, 0)
+		}
 	}
 
-	const unsubscribe = currentTopic.subscribe((value) => {
-		renderMarkdown()
+	onMount(() => {
+		unsubscribe = currentTopic.subscribe((value) => {
+			renderMarkdown()
+		})
 	})
 
-	onDestroy(unsubscribe)
+	onDestroy(() => {
+		if (unsubscribe) {
+			unsubscribe()
+		}
+	})
 </script>
 
-{#if Object.keys(topicInfo).length > 0}
-    <h2>{topicInfo.label}</h2>
-	<div class="not-prose">
-		<TopicBadge type={topicInfo.type}>{topicInfo.type}</TopicBadge>
+<div class="z-20">
+	{#if Object.keys(topicInfo).length > 0}
+		<h2 class="mt-2">{topicInfo.label}</h2>
+		<div class="not-prose">
+			<TopicBadge type={topicInfo.type}>{topicInfo.type}</TopicBadge>
+		</div>
+		<h3>Description</h3>
+		<p>{topicInfo.description}</p>
+	{/if}
+
+	<div bind:this={descriptionRef}>
+		{#if relevantResources.length > 0}
+			<h3>Resources</h3>
+			<ul>
+			{#each relevantResources as resource}
+				<li><a href={resource.url} target="_blank">{resource.title}</a></li>
+			{/each}
+			</ul>
+		{/if}
+
+		{#if Object.keys(topicInfo).length > 0 && topicInfo.keywords}
+			<h3>Keywords</h3>
+			<p>{topicInfo.keywords}</p>
+		{/if}
 	</div>
-    <h3>Description</h3>
-    <p>{topicInfo.description}</p>
-{/if}
-
-{#if relevantResources.length > 0}
-    <h3>Resources</h3>
-    <ul>
-    {#each relevantResources as resource}
-        <li><a href={resource.url} target="_blank">{resource.title}</a></li>
-    {/each}
-    </ul>
-{/if}
-
-{#if Object.keys(topicInfo).length > 0 && topicInfo.keywords}
-	<h3>Keywords</h3>
-	<p>{topicInfo.keywords}</p>
-{/if}
+</div>
 
