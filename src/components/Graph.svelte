@@ -16,9 +16,12 @@
 	let graphVisibility = 'hidden'
 	let currentTopicGraph = null
 
+	let isMobile = false
+
 	let graphElement = null
 
 	const resizeInstance = () => {
+		isMobile = innerWidth < lgBreakpoint
 		cyInstance.resize()
 		cyInstance.fit()
 		cyInstance.center()
@@ -26,10 +29,18 @@
 
 	const scaleWidth = (width) => {
 		let scaleFactor = 0.8
-		if (width < lgBreakpoint) {
+		if (isMobile) {
 			scaleFactor = 1
 		}
 		return Math.floor(width * scaleFactor)
+	}
+
+	const scaleHeight = (height, width) => {
+		let scaleFactor = .825
+		if (!isMobile) {
+			scaleFactor = 1
+		}
+		return Math.floor(height * scaleFactor)
 	}
 
 	const handleNodeSelection = (node) => {
@@ -38,6 +49,7 @@
 	}
 
 	onMount(() => {
+		isMobile = innerWidth < lgBreakpoint
 		let elements = []
 		// Add nodes
 		for (let topic of topics) {
@@ -61,7 +73,7 @@
 			container: graphElement,
 			style: GraphStyles,
 			elements: elements,
-			minZoom: 0.3,
+			minZoom: isMobile ? .2 : 0.3,
 			maxZoom: 1,
 			boxSelectionEnabled: false,
 			autoungrabify: true,
@@ -128,7 +140,7 @@
 <div
 	id="math-ml-canvas"
 	bind:this={graphElement}
-	style="height: {innerHeight}px; width: {scaleWidth(innerWidth)}px; visibility: {graphVisibility};"
+	style="height: {scaleHeight(innerHeight, innerWidth)}px; width: {scaleWidth(innerWidth)}px; visibility: {graphVisibility};"
 >
 	{#if cyInstance}
 		<slot />
