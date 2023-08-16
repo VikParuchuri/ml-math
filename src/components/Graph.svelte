@@ -62,20 +62,23 @@
 			container: graphElement,
 			style: GraphStyles,
 			elements: elements,
-			minZoom: 0.2,
-			maxZoom: 2,
+			minZoom: 0.3,
+			maxZoom: 1,
 			boxSelectionEnabled: false
-		})
-
-		cyInstance.on('click', 'node', function (evt) {
-			$currentTopic = this.id()
-			handleNodeSelection(evt.target)
 		})
 
 		cyInstance.on('tap', 'node', function (evt) {
 			$currentTopic = this.id()
 			handleNodeSelection(evt.target)
 		})
+
+		cyInstance.on('tap', function(evt){
+			if( evt.target === cyInstance ){
+				cyInstance.edges('.highlighted').removeClass('highlighted')
+				$currentTopic = ""
+			}
+		})
+
 		
 		cyInstance
 			.makeLayout({
