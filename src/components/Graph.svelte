@@ -73,10 +73,10 @@
 			container: graphElement,
 			style: GraphStyles,
 			elements: elements,
-			minZoom: isMobile ? .2 : 0.3,
+			minZoom: isMobile ? 0.4 : 0.3,
 			maxZoom: 1,
 			boxSelectionEnabled: false,
-			autoungrabify: true,
+			autoungrabify: isMobile,
 		})
 
 		cyInstance.on('tap', 'node', function (evt) {
@@ -93,23 +93,75 @@
 			}
 		})
 
-		
-		cyInstance
-			.makeLayout({
-				name: 'breadthfirst',
-				fit: true,
-				circle: true,
-				spacingFactor: 1.5
-			})
+		if (isMobile) {
+			cyInstance
+				.makeLayout({
+					name: 'concentric',
+					fit: true,
+					spacingFactor: .75,
+					concentric: function( node ){
+						let level = 1
+						switch (node.data('type')) {
+							case 'Important':
+								level = 3
+								break
+							case 'Useful':
+								level = 2
+								break
+							default:
+								level = 1
+								break
+						}
+						let sourceEdges = node.connectedEdges('[source = "' + node.id() + '"]')
+						let neededEdges = sourceEdges.filter(function(edge) {
+							return edge.data("importance") === "NeededFor";
+						});
+
+						return level * (neededEdges.length + sourceEdges.length) / 2.5
+					},
+					levelWidth: function( nodes ){ // the variation of concentric values in each level
+						return nodes.maxDegree() / 3.7;
+					},
+					minNodeSpacing: 50
+				})
 			.run()
+		} else {
+			cyInstance
+				.makeLayout({
+					name: 'breadthfirst',
+					fit: true,
+					circle: true,
+					spacingFactor: 1.25,
+					depthSort: function( node ){
+						let level = 1
+						switch (node.data('type')) {
+							case 'Important':
+								level = 3
+								break
+							case 'Useful':
+								level = 2
+								break
+							default:
+								level = 1
+								break
+						}
+						let sourceEdges = node.connectedEdges('[source = "' + node.id() + '"]')
+						let neededEdges = sourceEdges.filter(function(edge) {
+							return edge.data("importance") === "NeededFor";
+						});
+
+						return level * (neededEdges.length + sourceEdges.length) / 2.5
+					},
+					minNodeSpacing: 50
+				})
+				.run()
+		}
 
 		setTimeout(() => {
 			resizeInstance()
 			graphVisibility = 'visible'
 		}, 100)
-	})
-
-	onMount(() => {
+		
 		unsubscribe = currentTopic.subscribe((value) => {
 		if (value !== currentTopicGraph && value) {
 				currentTopicGraph = value

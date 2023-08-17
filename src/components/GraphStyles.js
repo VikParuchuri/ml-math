@@ -59,36 +59,36 @@ export default [
       selector: 'edge',
       style: {
         'curve-style': 'bezier',
-        'color': '#64748b', //slate-500
+        'color': '#cbd5e1', //slate-300
         'text-background-color': '#ffffff',
         'text-background-opacity': '1',
         'text-background-padding': '3',
         'width': '6',
         'target-arrow-shape': 'triangle',
-        'line-color': '#64748b', //slate-500
-        'target-arrow-color': '#64748b', //slate-500
+        'line-color': '#cbd5e1', //slate-300
+        'target-arrow-color': '#cbd5e1', //slate-300
         'font-weight': 'bold'
       }
     },
     {
       selector: 'edge[importance = "UsefulFor"]',
       style: {
-        'line-color': '#cbd5e1', //slate-300
-        'target-arrow-color': '#cbd5e1', //slate-300
+        'line-color': '#f1f5f9', //slate-100
+        'target-arrow-color': '#f1f5f9', //slate-100
       }
     },
     {
       selector: 'edge[importance = "NeededFor"]',
       style: {
-        'line-color': '#64748b', //slate-500
-        'target-arrow-color': '#64748b', //slate-500
+        'line-color': '#cbd5e1', //slate-300
+        'target-arrow-color': '#cbd5e1', //slate-300
       }
     },
     {
       selector: 'edge.highlighted',
       style: {
-        'line-color': '#fde68a', //amber-200
-        'target-arrow-color': '#fde68a',//amber-200
+        'line-color': '#fbbf24', //amber-400
+        'target-arrow-color': '#fbbf24',//amber-400
         'content': `data(importance)`, 
         'arrow-scale': 3,
         'z-index-compare': 'manual',

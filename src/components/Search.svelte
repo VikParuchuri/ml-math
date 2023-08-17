@@ -10,6 +10,25 @@
         $currentTopic = topicId
         dispatch('selectedNode')
     }
+
+    let topicsAndKeywords = []
+    topics.forEach(topic => {
+        topicsAndKeywords.push({
+            id: topic.id,
+            label: topic.label,
+            kind: "topic"
+        })
+        if (topic.keywords) {
+            topic.keywords.split(',').forEach(keyword => {
+                topicsAndKeywords.push({
+                    id: topic.id,
+                    label: keyword,
+                    topic: topic.label,
+                    kind: "keyword"
+                })
+            })
+        }
+    })
 </script>
 
 <div class="relative z-10">
@@ -18,11 +37,19 @@
     hideLabel
     showDropdownOnFocus
     placeholder={`Search for concepts (e.g. "Calculus")`}
-    data={topics}
+    data={topicsAndKeywords}
     limit={5}
-    extract={(item) => item.label}
+    extract={(item) => `${item.label}`}
+    let:result
     on:select={({ detail }) => selectTopic(detail.original.id)}
-/>
+>
+<span class:font-semibold={result.original.kind === 'topic'}>
+    {@html result.string}
+</span>
+{#if result.original.topic}
+    <div class="text-xs text-gray-500">Concept: {result.original.topic}</div>
+{/if}
+</Typeahead>
 </div>
 
 <style>
